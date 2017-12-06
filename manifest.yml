@@ -1,0 +1,8 @@
+---
+applications:
+  - name: dummy-app
+    buildpack: java_buildpack
+    path: build/libs/def.jar
+    instances: 1
+    memory: 1G
+    disk_quota: 256M
